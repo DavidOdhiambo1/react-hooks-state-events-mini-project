@@ -1,7 +1,7 @@
 import React from "react";
 
 function Task({task, onDelete, index}) {
- 
+  
   return (
     <div className="task">
       <div className="label">{task.category}</div>

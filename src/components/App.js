@@ -33,7 +33,7 @@ function App() {
       <h2>My tasks</h2>
       <CategoryFilter categories={CATEGORIES} selectedCategory={selectedCategory} onCategoryClick={handleCategoryClick}/>
       <NewTaskForm categories={CATEGORIES} onTaskFormSubmit={handleTaskFormSubmit}/>
-      <TaskList tasks ={TASKS} tasksToDisplay={tasks} onDelete={handleDeleteTask}/>
+      <TaskList tasks ={tasks} onDelete={handleDeleteTask}/>
     </div>
   );
 }
